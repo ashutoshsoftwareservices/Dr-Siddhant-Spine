@@ -69,11 +69,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const typeTarget = document.getElementById('typed-text');
     if (typeTarget) {
         const words = [
-            'Consultant Spine Surgeon',
+            'Consultant Ortho Spine Surgeon',
             'Minimally Invasive Spine Specialist',
             'Endoscopic Spine Care Expert',
-            'Fellow in Spine Surgery (FISS)',
-            'Fellow in MIS Spine Surgery (FMISS)'
+            'Fellowship in Spine Surgery (FISS)',
+            'Fellowship in MIS Spine Surgery (FMISS)'
         ];
         let wordIndex = 0;
         let charIndex = 0;
