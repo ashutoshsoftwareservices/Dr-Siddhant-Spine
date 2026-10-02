@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" data-theme="light">
 
 <head>
@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
             <a class="navbar-brand-custom" href="#home" id="nav-brand">
-                <i class="bi bi-activity text-primary fs-3"></i> <span>Dr. Siddhant Navik</span><span
+                <i class="bi bi-activity text-primary fs-3"></i> <span>Dr. Siddhant D Navik</span><span
                     class="brand-dot"></span>
             </a>
 
@@ -256,16 +256,16 @@
                     <div class="bio-card h-100">
                         <!-- Navigation Tabs for Timeline -->
                         <div class="timeline-tabs-nav">
-                            <button class="timeline-tab-btn active" data-tab="experience" id="tab-experience-btn">
+                            <button class="timeline-tab-btn d-none" data-tab="experience" id="tab-experience-btn" style="display: none !important;">
                                 <i class="bi bi-briefcase-fill"></i> Work Experience
                             </button>
-                            <button class="timeline-tab-btn" data-tab="education" id="tab-education-btn">
+                            <button class="timeline-tab-btn active" data-tab="education" id="tab-education-btn">
                                 <i class="bi bi-mortarboard-fill"></i> Education & Fellowships
                             </button>
                         </div>
 
-                        <!-- Panel 1: Work Experience Timeline (Active) -->
-                        <div class="timeline-panel active" id="panel-experience">
+                        <!-- Panel 1: Work Experience Timeline (Hidden) -->
+                        <div class="timeline-panel d-none" id="panel-experience" style="display: none !important;">
                             <h4 class="mb-4 text-primary" style="font-size: 1.15rem;"><i
                                     class="bi bi-hospital-fill me-2"></i> Clinical & Surgical Career History</h4>
                             <div class="timeline-container">
@@ -347,8 +347,8 @@
                             </div>
                         </div>
 
-                        <!-- Panel 2: Education & Fellowships Timeline -->
-                        <div class="timeline-panel" id="panel-education">
+                        <!-- Panel 2: Education & Fellowships Timeline (Active) -->
+                        <div class="timeline-panel active" id="panel-education">
                             <h4 class="mb-4 text-primary" style="font-size: 1.15rem;"><i
                                     class="bi bi-award-fill me-2"></i> Degrees & Specialized Spine Fellowships</h4>
                             <div class="timeline-container">
@@ -1193,6 +1193,11 @@
     <button class="back-to-top" aria-label="Scroll back to top">
         <i class="bi bi-arrow-up-short fs-4"></i>
     </button>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/918668234393" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
 
     <!-- Bootstrap 5 JS Bundle (Includes Popper) CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
